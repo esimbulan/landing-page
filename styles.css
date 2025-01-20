@@ -30,12 +30,13 @@ ul {
     display: flex;;
     padding-bottom: 30px;
     gap: 30px;
+    justify-content: space-between;
 }
 
 .hero-text-container {
     display: flex;
     flex-direction: column;
-    flex: 1;
+    width: 550px;
 }
 
 .hero-text-container .hero-header {
@@ -57,6 +58,14 @@ ul {
     color: #E5E7EB;
     border-radius: 5px;
     border: 0;
-    align-self: center;
 }
 
+.manila-img {
+    max-width: 50%;
+    flex: 1 1 auto;
+    height: auto;
+}
+
+.info-container {
+    display: flex;
+}
