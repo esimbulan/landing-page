@@ -28,7 +28,8 @@ ul {
 }
 
 .hero-container {
-    display: flex;;
+    display: flex;
+    ;
     padding-bottom: 50px;
     gap: 30px;
     justify-content: space-between;
@@ -73,6 +74,7 @@ ul {
     align-items: center;
     color: #1f372a;
     padding: 50px;
+    gap: 25px;
 }
 
 .info-container h1 {
@@ -118,4 +120,42 @@ ul {
 .quote-container p {
     align-self: flex-end;
     margin-right: 100px;
+}
+
+.cat-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 50px 200px;
+    background-color: #3882F6;
+    border-radius: 15px;
+    padding: 30px;
+    gap: 15px;
+
+}
+
+.cat-text-container {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    color: #E5E7EB;
+}
+
+.cat-text-container h1 {
+    font-size: 18px;
+    font-weight: 900;
+}
+
+.cat-text-container * {
+    margin: 0;
+}
+
+.sign-up {
+    width: 100px;
+    height: 30px;
+    border: 0;
+    border-radius: 8px;
+    background-color: #3882F6;
+    border: 2px solid#E5E7EB;
+    color: #E5E7EB;
 }
