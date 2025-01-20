@@ -62,10 +62,36 @@ ul {
 
 .manila-img {
     max-width: 50%;
-    flex: 1 1 auto;
-    height: auto;
 }
+
+
 
 .info-container {
     display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #1f372a;
+}
+
+.info-container h1 {
+    font-size: 36px;
+    font-weight: 900;
+    
+}
+
+.card-container { 
+    display: flex;
+    gap: 25px;
+}
+
+.cards {
+    display: flex;
+    width: 250px;
+    flex-direction: column;
+    height: auto;
+    text-align: center;
+}
+
+.cards img{
+    border-radius: 15px;
 }
