@@ -8,8 +8,7 @@ body {
 }
 
 .header-container,
-.hero-container,
-.footer-container {
+.hero-container {
     padding: 15px 200px;
     background-color: #1f2937;
 }
@@ -102,9 +101,9 @@ ul {
 
 .quote-container {
     display: flex;
+    padding: 15px 350px;
     background-color: #E5E7EB;
     flex-direction: column;
-    padding: 50px;
     align-items: center;
     justify-content: center;
     margin: 0;
@@ -164,4 +163,5 @@ ul {
     padding: 30px;
     text-align: center;
     color: #E5E7EB;
+    background-color: #1f2937;
 }
