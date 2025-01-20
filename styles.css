@@ -7,7 +7,8 @@ body {
     font-family: 'Roboto';
 }
 
-.header-container, .hero-container {
+.header-container,
+.hero-container {
     padding: 15px 200px;
     background-color: #1f2937;
 }
@@ -28,7 +29,7 @@ ul {
 
 .hero-container {
     display: flex;;
-    padding-bottom: 30px;
+    padding-bottom: 50px;
     gap: 30px;
     justify-content: space-between;
 }
@@ -71,15 +72,16 @@ ul {
     flex-direction: column;
     align-items: center;
     color: #1f372a;
+    padding: 50px;
 }
 
 .info-container h1 {
     font-size: 36px;
     font-weight: 900;
-    
+
 }
 
-.card-container { 
+.card-container {
     display: flex;
     gap: 25px;
 }
@@ -92,6 +94,28 @@ ul {
     text-align: center;
 }
 
-.cards img{
+.cards img {
     border-radius: 15px;
+}
+
+.quote-container {
+    display: flex;
+    background-color: #E5E7EB;
+    flex-direction: column;
+    padding: 50px;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+}
+
+.quote-container h1 {
+    font-size: 36px;
+    font-style: italic;
+    color: #1F2937;
+    margin: 0;
+}
+
+.quote-container p {
+    align-self: flex-end;
+    margin-right: 100px;
 }
